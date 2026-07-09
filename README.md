@@ -38,3 +38,4 @@ After that, every push to this repo triggers a fresh build + deploy of the site.
   the page path: `/projects/<slug>`.
 - `experience.json` is rendered in array order — put current role first.
 - Leave `links.repo` as `""` if a project has no public repo to link to.
+# jagankumar-content
