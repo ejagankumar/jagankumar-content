@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "care-radiology-dicom",
+    "title": "CARE Radiology & Tele-Radiology Integration",
+    "summary": "End-to-end DICOM and PACS integration for CARE HMIS, connecting hospital imaging modalities to a federated OHIF Viewer.",
+    "description": [
+      "Built the CARE DICOM Enabler, a Windows .NET service using fo-dicom that bridges DICOM modalities (CT, MRI, X-ray) to the CARE Django backend, validated against the DVTK emulator before real-device rollout.",
+      "Integrated DCM4CHEE as the PACS layer and the OHIF Viewer as a federated React module inside care_fe's plugin architecture.",
+      "Mapped patient-journey pain points for radiology access across rural, semi-urban, and urban public health settings, framed around FHIR DiagnosticReport, PACS, and tele-radiology workflows.",
+      "Ran gap analysis on a TeleRadiology integration SOW (OHIF Viewer, DCM4CHEE, Report Engine) to determine vendor payment readiness."
+    ],
+    "tags": ["DICOM", "PACS", "OHIF", "FHIR", "Healthcare", "Django", "React"],
+    "links": { "repo": "https://github.com/care-ecosystem" }
+  },
+  {
+    "slug": "eaushadhi-pharmacy-integration",
+    "title": "eAushadhi Pharmacy Integration",
+    "summary": "Connected CARE's pharmacy workflows to Karnataka's government eAushadhi API, with a design built for multi-state expansion.",
+    "description": [
+      "Rearchitected the pharmacy data model around a composite natural key with per-facility-date sync control records.",
+      "Implemented trigram-based fuzzy drug-name matching using Django's TrigramSimilarity to reconcile inconsistent naming across formularies.",
+      "Built a configurable parsing layer designed for multi-state rollout, with Jharkhand's DVDMS integration as the next target.",
+      "Routed integration traffic through a Cloudflare Worker proxy in front of the government API."
+    ],
+    "tags": ["Django", "PostgreSQL", "Government API", "Data Modeling"],
+    "links": { "repo": "" }
+  },
+  {
+    "slug": "multiarch-docker-migration",
+    "title": "Multi-Architecture Docker Migration",
+    "summary": "Converted core care-ecosystem services to amd64 + arm64 builds publishing to GHCR.",
+    "description": [
+      "Migrated GitHub Actions workflows across the CARE backend, care_fe, OHIF Viewer, slapd-dcm4chee, and Superset images to build and publish multi-platform images.",
+      "Standardized the build pipeline to support both cloud (amd64) and edge/ARM deployment targets for resource-constrained facility hardware."
+    ],
+    "tags": ["Docker", "GitHub Actions", "DevOps", "GHCR"],
+    "links": { "repo": "https://github.com/care-ecosystem" }
+  },
+  {
+    "slug": "k3s-superset-infra",
+    "title": "Superset Analytics on k3s",
+    "summary": "Self-managed Kubernetes infrastructure for dashboarding and analytics, deployed with GitOps practices.",
+    "description": [
+      "Forked and deployed Apache Superset (care-ecosystem/superset) on a k3s cluster on AWS (ap-south-1).",
+      "Configured Cloudflare DNS, an Elastic IP, and Traefik ingress for the cluster domain.",
+      "Set up ArgoCD for GitOps-style deployment and designed a separate configs repository for dashboard import/export workflows."
+    ],
+    "tags": ["Kubernetes", "k3s", "Helm", "ArgoCD", "Superset", "AWS"],
+    "links": { "repo": "https://github.com/care-ecosystem/superset" }
+  },
+  {
+    "slug": "digit-pgr-citizen-grievance",
+    "title": "DIGIT Public Grievance Redressal (PGR)",
+    "summary": "Citizen complaint and feedback module used across 450+ urban local bodies on the DIGIT platform.",
+    "description": [
+      "Ported and maintained the PGR module from DIGIT OSS Urban into the DIGIT-Frontend monorepo.",
+      "Contributed to the broader DIGIT UI module ecosystem (core, common/payments, DSS dashboards).",
+      "Built a strategic presentation and analysis exploring citizen-voice integration patterns between CARE HMIS and DIGIT PGR."
+    ],
+    "tags": ["DIGIT", "Civic Tech", "React", "Public Sector"],
+    "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
+  },
+  {
+    "slug": "ncg-tele-opd-manipur",
+    "title": "NCG Tele-OPD Scale-Up — Manipur",
+    "summary": "Technical and functional gap analysis for a tele-OPD scale-up proposal in Manipur's public health system.",
+    "description": [
+      "Analyzed technology requirements and functional gaps for scaling NCG Tele-OPD across Manipur.",
+      "Evaluated where AI-assisted triage or documentation could fit into the existing tele-consultation workflow."
+    ],
+    "tags": ["Telemedicine", "Healthcare Policy", "Public Health"],
+    "links": { "repo": "" }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "egov-tech-lead",
+    "company": "eGov Foundation",
+    "role": "Technical Lead",
+    "location": "Bengaluru, India",
+    "startDate": "2023-01",
+    "endDate": "present",
+    "summary": "Lead engineering on the CARE HMIS platform's radiology, pharmacy, and grievance integration domains. Operate without a dedicated PM, owning scope and technical direction directly with state health departments and vendors.",
+    "highlights": [
+      "Designed and built the CARE DICOM Enabler, a Windows .NET service bridging hospital DICOM modalities to the CARE Django backend (fo-dicom 5.0.2), validated against the DVTK emulator.",
+      "Integrated DCM4CHEE PACS and the OHIF Viewer into CARE as a federated React module for tele-radiology workflows.",
+      "Delivered eAushadhi Phase 1 pharmacy integration with Karnataka's government API via a Cloudflare Worker proxy, including a composite-key data model, per-facility-date sync control, and trigram-based fuzzy drug-name matching.",
+      "Migrated core care-ecosystem repositories (backend, frontend, OHIF, slapd-dcm4chee, Superset) to multi-architecture (amd64/arm64) Docker builds publishing to GHCR.",
+      "Set up and documented a Superset analytics deployment on a self-managed k3s cluster (AWS ap-south-1) with Helm, Traefik ingress, and ArgoCD-based GitOps delivery.",
+      "Conducted gap analysis on Milestone 2 deliverables (OHIF Viewer, DCM4CHEE, Report Engine) for a TeleRadiology integration SOW, advising on vendor payment readiness.",
+      "Analyzed the DVDMS API (CDAC) for Jharkhand pharmacy expansion and drafted technical correspondence with CDAC and NRCeS on real-device PACS integration."
+    ]
+  },
+  {
+    "id": "egov-senior-engineer",
+    "company": "eGov Foundation",
+    "role": "Senior Software Engineer",
+    "location": "Bengaluru, India",
+    "startDate": "2021-06",
+    "endDate": "2022-12",
+    "summary": "Contributed to the DIGIT Frontend platform (PGR, HCM Admin Console, Payments, DSS, Microplan modules) used across 450+ urban governing bodies in India.",
+    "highlights": [
+      "Built and maintained DIGIT UI modules: digit-ui-css, digit-ui-module-core, digit-ui-module-common (payments), digit-ui-module-dss.",
+      "Contributed the Public Grievance Redressal (PGR) module ported from DIGIT OSS Urban.",
+      "Delivered UI for the HCM Admin Console and microplan resource-management workflows.",
+      "Built a CARE plugin CLI scaffold generator to speed up new plugin development for care_fe."
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "Backend & Data",
+      "items": ["Django REST Framework", "PostgreSQL", "Trigram fuzzy matching", "FHIR", "Plugin-based architecture (CARE)"]
+    },
+    {
+      "name": "Frontend",
+      "items": ["React", "Federated/micro-frontend modules", "OHIF Viewer customization"]
+    },
+    {
+      "name": "Healthcare Interop",
+      "items": ["DICOM", "PACS / DCM4CHEE", "fo-dicom (.NET)", "Tele-radiology workflows"]
+    },
+    {
+      "name": "Infrastructure & DevOps",
+      "items": ["Kubernetes (k3s)", "Helm", "ArgoCD (GitOps)", "Docker (multi-arch / GHCR)", "GitHub Actions", "Traefik", "Cloudflare (Workers, DNS)"]
+    },
+    {
+      "name": "Domain",
+      "items": ["Civic tech / DIGIT platform", "Public health HMIS", "Government API integration (eAushadhi, DVDMS)"]
+    }
+  ]
+}
