@@ -1,106 +1,83 @@
 [
   {
-    "slug": "hcm-console",
-    "title": "HCM Console — Health Campaign Management",
-    "summary": "Health campaign management system for African field operations, enabling configuration of campaign workflows and real-time monitoring.",
+    "slug": "care-hmis-teleicu",
+    "title": "Care HMIS / TeleICU",
+    "summary": "Technical Architect for CARE HMIS & TeleICU deployments on the Open Health Care Network (CARE) platform.",
     "description": [
-      "Led architecture and development of the HCM Console (Oct 2023), a comprehensive platform for managing large-scale health campaigns in resource-constrained field settings across Africa.",
-      "Built configurable workflow engine allowing health administrators to design multi-stage campaigns (registration, screening, treatment, follow-up) without code changes.",
-      "Implemented real-time monitoring dashboards showing campaign progress, resource allocation, and field team performance metrics.",
-      "Designed offline-first sync capabilities for field workers operating in areas with intermittent connectivity, with conflict resolution and data reconciliation on sync.",
-      "Integrated with DIGIT's service registry for interoperability with other government services and third-party systems."
+      "Serving as Technical Architect for CARE HMIS & TeleICU deployments at eGovernments Foundation, contributing to the design and evolution of healthcare solutions on the Open Health Care Network (CARE) platform.",
+      "Design scalable features, reusable plugins, backend services, APIs, and integration patterns for hospital and public health workflows. Built integrations with eAushadhi, DVDMS, and Tele-Radiology solutions supporting multiple PACS/DICOM servers to enable interoperable healthcare systems.",
+      "Collaborate with product, engineering, clinical, and implementation teams on solution design, architecture reviews, technical decisions, and POCs. Create architecture documentation, API specifications, and release guides while developing reusable components, shared utilities, and engineering standards to improve platform scalability, maintainability, and developer productivity.",
+      "Key integrations include DICOM/PACS for radiology (using DCM4CHEE, OHIF Viewer, fo-dicom), pharmacy systems (eAushadhi API, DVDMS API with trigram-based fuzzy matching), and multi-architecture Docker builds for deployment flexibility."
     ],
-    "tags": ["Healthcare", "DIGIT", "React", "Campaign Management", "Offline-first", "Africa"],
-    "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
+    "tags": ["Python", "Django", "DICOM", "PACS", "FHIR", "Healthcare", "MicroFrontend", "React"],
+    "links": { "repo": "https://github.com/care-ecosystem" }
   },
   {
-    "slug": "mukta-digit-works",
-    "title": "MUKTA (Digit Works) — Employment Scheme Platform",
-    "summary": "Employment scheme delivery platform for urban workers in Odisha, managing wage payments and work orders across municipal bodies.",
+    "slug": "digit-studio",
+    "title": "Digit Studio",
+    "summary": "Configurable low-code/no-code Service Delivery Framework built to accelerate development of government digital services on the DIGIT platform.",
     "description": [
-      "Architected MUKTA/Digit Works (Jul 2022-Sep 2023), a comprehensive employment scheme management platform deployed across urban local bodies in Odisha for wage employment programs.",
-      "Built end-to-end workflow for work order creation, labor attendance tracking, muster roll generation, and wage calculation with government compliance rules.",
-      "Designed payment disbursement system integrating with state treasury and banking systems for direct benefit transfer to workers' bank accounts.",
-      "Implemented contractor and vendor management modules with rate analysis, material procurement tracking, and project progress monitoring.",
-      "Created mobile-first attendance capture interface for field supervisors, with biometric integration and geo-tagging capabilities.",
-      "Delivered admin dashboards for scheme monitoring, anomaly detection, and financial reconciliation used by urban local body officials."
+      "Served as the Technical Architect for DIGIT Studio, a configurable low-code/no-code Service Delivery Framework built to accelerate the development of government digital services on the DIGIT platform.",
+      "Designed the end-to-end platform architecture across frontend and backend, including configurable UI, backend services, APIs, runtime engine, extension framework, and integration patterns. Established reusable architecture, engineering standards, and configuration models that enable rapid development of citizen services with minimal code.",
+      "Led technical design, architecture reviews, requirement analysis, and implementation guidance while mentoring engineering teams and driving key technical decisions. Created architecture documentation, API specifications, developer guides, and release documentation.",
+      "Successfully delivered one of the first implementations for the Government of Djibouti, building a Building Plan Approval solution that validated the framework's scalability, configurability, and rapid delivery capabilities."
     ],
-    "tags": ["DIGIT", "Public Sector", "Employment", "Payments", "React", "Java"],
-    "links": { "repo": "https://github.com/egovernments/DIGIT-Works" }
+    "tags": ["Architectural Design", "Low-code", "Kubernetes", "Service Framework", "DIGIT", "React", "Java"],
+    "links": { "repo": "" }
+  },
+  {
+    "slug": "hcm-console",
+    "title": "HCM Console",
+    "summary": "Health campaign management platform simplifying large-scale field operations across African regions, reducing months of coordination to hours.",
+    "description": [
+      "The HCM Console was built to simplify and accelerate health campaign management, helping organizations plan, execute, and monitor large-scale field operations — especially across African regions, where campaign logistics are complex and time-sensitive.",
+      "What traditionally took months to coordinate can now be done within hours using the console. Key capabilities include: configuring campaign screens for field workers, defining checklists and workflows for compliance, setting targets at boundary and user levels, configuring delivery rules and product assignments, generating user credentials, and monitoring real-time data on stock, deliveries, and progress.",
+      "Provides interactive dashboards and reports for supervisors and stakeholders, significantly enhancing operational efficiency, accountability, and real-time visibility.",
+      "This solution transformed how health campaigns are executed at scale, enabling better coordination across distributed field teams."
+    ],
+    "tags": ["Systems Design", "Node.js", "React", "Healthcare", "Campaign Management", "Africa", "DIGIT"],
+    "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
   },
   {
     "slug": "digit-workbench",
-    "title": "DIGIT Workbench — Configuration Management",
-    "summary": "Centralized configuration management platform using JSON Schema Draft 7 for dynamic UI generation across DIGIT modules.",
+    "title": "Digit Workbench",
+    "summary": "Centralized master data management module using JSON Schema Draft 7 for dynamic UI generation across DIGIT applications.",
     "description": [
-      "Designed DIGIT Workbench (Jul-Oct 2023), a low-code configuration management system enabling product managers and administrators to configure DIGIT modules without developer intervention.",
-      "Built JSON Schema Draft 7-based validation engine that generates type-safe forms and validates configurations across 15+ DIGIT modules (PGR, TL, PT, WS, SW, etc.).",
-      "Implemented version control for configurations with diff visualization, rollback capabilities, and audit trails for compliance tracking.",
-      "Created template library allowing reuse of common configuration patterns across different urban local bodies and states.",
-      "Delivered approval workflow system for configuration changes, with environment promotion (dev → staging → production) and automated testing."
+      "Worked on the Digit platform to enhance configurability and streamline management of master/configuration data used across applications and services.",
+      "Designed and developed a centralized module that allows other applications and services built on Digit Core to define and manage their masters using JSON Schema Draft 7, enabling dynamic UI generation based on the schema.",
+      "The module improved productivity, reduced duplication, and ensured consistency across projects. Widely adopted in multiple projects, including Works, Mgramseva, Urban, Health Campaign Management, PUCAR, SELCO, and more.",
+      "Enables configuration-driven development, reducing time to market for new services and improving maintainability."
     ],
-    "tags": ["JSON Schema", "Configuration Management", "DIGIT", "Low-code", "React", "DevOps"],
+    "tags": ["React.js", "Configuration Management", "JSON Schema", "DIGIT", "Low-code"],
     "links": { "repo": "" }
   },
   {
-    "slug": "care-radiology-dicom",
-    "title": "CARE Radiology & Tele-Radiology Integration",
-    "summary": "End-to-end DICOM and PACS integration for CARE HMIS, connecting hospital imaging modalities to a federated OHIF Viewer.",
+    "slug": "mukta-digit-works",
+    "title": "Digit Works (MUKTA)",
+    "summary": "Employment scheme management platform for urban poor in Odisha, enabling transparent wage payments and project execution.",
     "description": [
-      "Built the CARE DICOM Enabler, a Windows .NET service using fo-dicom that bridges DICOM modalities (CT, MRI, X-ray) to the CARE Django backend, validated against the DVTK emulator before real-device rollout.",
-      "Integrated DCM4CHEE as the PACS layer and the OHIF Viewer as a federated React module inside care_fe's plugin architecture.",
-      "Mapped patient-journey pain points for radiology access across rural, semi-urban, and urban public health settings, framed around FHIR DiagnosticReport, PACS, and tele-radiology workflows.",
-      "Ran gap analysis on a TeleRadiology integration SOW (OHIF Viewer, DCM4CHEE, Report Engine) to determine vendor payment readiness."
+      "Contributed to the design and development of MUKTA (Mukhyamantri Karma Tatpara Abhiyan), a government initiative providing employment to the urban poor and improving Odisha's employment rate through community development.",
+      "MUKTASoft is a customized version of the base Works platform, tailored specifically for the MUKTA scheme with MUKTA-specific configurations and UI screens.",
+      "Designed reusable services and UI components/organisms, enabling screens to be dynamically generated from configurations. This increased productivity and reduced bugs and testing effort.",
+      "Key modules developed include: Estimation, Contract management, Attendance and billing. Enabled urban workers to receive wages directly in their bank accounts with SMS notifications, improving payment speed and transparency.",
+      "Implemented smart payments for contractor bills and vouchers. Successfully deployed in Odisha, enabling seamless execution of MUKTA schemes across the state.",
+      "MUKTASoft continues to streamline scheme execution, making government employment projects more efficient, transparent, and impactful."
     ],
-    "tags": ["DICOM", "PACS", "OHIF", "FHIR", "Healthcare", "Django", "React"],
-    "links": { "repo": "https://github.com/care-ecosystem" }
+    "tags": ["Systems Design", "React.js", "Java", "Employment", "Public Sector", "DIGIT"],
+    "links": { "repo": "https://github.com/egovernments/DIGIT-Works" }
   },
   {
-    "slug": "eaushadhi-pharmacy-integration",
-    "title": "eAushadhi Pharmacy Integration",
-    "summary": "Connected CARE's pharmacy workflows to Karnataka's government eAushadhi API, with a design built for multi-state expansion.",
+    "slug": "digit-urban",
+    "title": "Digit Urban",
+    "summary": "Urban governance platform serving 450+ urban local bodies across India for citizen services like Property Tax, Trade License, and more.",
     "description": [
-      "Rearchitected the pharmacy data model around a composite natural key with per-facility-date sync control records.",
-      "Implemented trigram-based fuzzy drug-name matching using Django's TrigramSimilarity to reconcile inconsistent naming across formularies.",
-      "Built a configurable parsing layer designed for multi-state rollout, with Jharkhand's DVDMS integration as the next target.",
-      "Routed integration traffic through a Cloudflare Worker proxy in front of the government API."
+      "As part of the Product Engineering team at eGovernments Foundation, contributed to the development of multiple DIGIT Urban modules, including Property Tax, Trade License, Fire NOC, Building Plan Approval, mCollect, Complaints, and Birth & Death Registration.",
+      "Built applications using a custom React framework, developing reusable UI components, shared libraries, and configurable frameworks that accelerated feature delivery and improved maintainability across products.",
+      "Designed and developed configurable, reusable dashboards for Urban modules, enabling analytics and monitoring across multiple services.",
+      "Led frontend development, managed and mentored a team of three developers, conducted code reviews, and drove engineering best practices. Contributed to platform security improvements, proof-of-concepts (POCs), release management, deployment support, technical documentation, and onboarding materials.",
+      "Supported multiple Urban implementations, including UPYOG and NUDM deployments, by mentoring implementation teams, resolving technical challenges, and promoting reusable, scalable engineering practices across the DIGIT platform."
     ],
-    "tags": ["Django", "PostgreSQL", "Government API", "Data Modeling"],
-    "links": { "repo": "" }
-  },
-  {
-    "slug": "digit-pgr-citizen-grievance",
-    "title": "DIGIT Public Grievance Redressal (PGR)",
-    "summary": "Citizen complaint and feedback module used across 450+ urban local bodies on the DIGIT platform.",
-    "description": [
-      "Ported and maintained the PGR module from DIGIT OSS Urban into the DIGIT-Frontend monorepo.",
-      "Contributed to the broader DIGIT UI module ecosystem (core, common/payments, DSS dashboards).",
-      "Built a strategic presentation and analysis exploring citizen-voice integration patterns between CARE HMIS and DIGIT PGR."
-    ],
-    "tags": ["DIGIT", "Civic Tech", "React", "Public Sector"],
+    "tags": ["React.js", "Kubernetes", "Urban Governance", "DIGIT", "Team Leadership"],
     "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
-  },
-  {
-    "slug": "k3s-superset-infra",
-    "title": "Superset Analytics on k3s",
-    "summary": "Self-managed Kubernetes infrastructure for dashboarding and analytics, deployed with GitOps practices.",
-    "description": [
-      "Forked and deployed Apache Superset (care-ecosystem/superset) on a k3s cluster on AWS (ap-south-1).",
-      "Configured Cloudflare DNS, an Elastic IP, and Traefik ingress for the cluster domain.",
-      "Set up ArgoCD for GitOps-style deployment and designed a separate configs repository for dashboard import/export workflows."
-    ],
-    "tags": ["Kubernetes", "k3s", "Helm", "ArgoCD", "Superset", "AWS"],
-    "links": { "repo": "https://github.com/care-ecosystem/superset" }
-  },
-  {
-    "slug": "multiarch-docker-migration",
-    "title": "Multi-Architecture Docker Migration",
-    "summary": "Converted core care-ecosystem services to amd64 + arm64 builds publishing to GHCR.",
-    "description": [
-      "Migrated GitHub Actions workflows across the CARE backend, care_fe, OHIF Viewer, slapd-dcm4chee, and Superset images to build and publish multi-platform images.",
-      "Standardized the build pipeline to support both cloud (amd64) and edge/ARM deployment targets for resource-constrained facility hardware."
-    ],
-    "tags": ["Docker", "GitHub Actions", "DevOps", "GHCR"],
-    "links": { "repo": "https://github.com/care-ecosystem" }
   }
 ]
