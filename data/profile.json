@@ -2,11 +2,12 @@
   "name": "Jagankumar E",
   "title": "Technical Architect, eGov Foundation",
   "location": "Bengaluru, Karnataka, India",
-  "tagline": "Technical Architect and Full-Stack Engineer passionate about designing scalable, configurable systems for digital governance.",
+  "tagline": "Technical Architect building scalable healthcare and digital governance platforms that serve millions across India and Africa.",
   "bio": [
-    "I'm a Technical Architect at eGov Foundation, working on DIGIT — a platform for urban governance used across 450+ urban local bodies in India, and CARE — an open-source health management information system deployed in multiple states.",
-    "My recent work includes the HCM Console for health campaign management in African field operations, DIGIT Workbench for centralized configuration management using JSON Schema, and MUKTA (Digit Works) — an employment scheme delivery platform for urban workers in Odisha.",
-    "I also contribute to healthcare interoperability projects including CARE's radiology/DICOM stack, pharmacy integrations (eAushadhi, DVDMS), and maintain CI/CD infrastructure with multi-architecture Docker builds and k3s deployments."
+    "I'm a Technical Architect at eGov Foundation with 7+ years of experience designing and building large-scale digital public infrastructure. I work across two major platforms: DIGIT (urban governance serving 450+ cities) and CARE (open-source health information system deployed nationwide).",
+    "Currently leading technical architecture for Care HMIS/TeleICU deployments, including integrations with PACS/DICOM servers, pharmacy systems (eAushadhi, DVDMS), and tele-radiology solutions. Previously architected DIGIT Studio — a low-code service delivery framework successfully deployed in Djibouti for building plan approvals.",
+    "I've delivered high-impact projects including HCM Console (health campaigns across Africa), DIGIT Workbench (configuration management using JSON Schema), and MUKTA (employment scheme platform in Odisha). My work spans full-stack development, system architecture, and team leadership, with expertise in React, Django, Kubernetes, and configurable frameworks.",
+    "Find my open-source contributions on GitHub, published packages on npm, and connect with me on LinkedIn."
   ],
   "email": "jagan.kumar@egov.org.in",
   "social": {

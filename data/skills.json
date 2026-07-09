@@ -1,24 +1,32 @@
 {
   "groups": [
     {
-      "name": "Backend & Data",
-      "items": ["Django REST Framework", "PostgreSQL", "Trigram fuzzy matching", "FHIR", "Plugin-based architecture (CARE)"]
+      "name": "Architecture & Design",
+      "items": ["System Architecture", "API Design", "Microservices", "Configuration Management", "Low-code/No-code Frameworks", "Federation Architecture", "Service Integration Patterns"]
     },
     {
-      "name": "Frontend",
-      "items": ["React", "Federated/micro-frontend modules", "OHIF Viewer customization"]
+      "name": "Frontend Development",
+      "items": ["React.js", "MicroFrontend", "Component Libraries", "JSON Schema UI Generation", "Responsive Design", "Offline-first Applications"]
     },
     {
-      "name": "Healthcare Interop",
-      "items": ["DICOM", "PACS / DCM4CHEE", "fo-dicom (.NET)", "Tele-radiology workflows"]
+      "name": "Backend Development",
+      "items": ["Python", "Django REST Framework", "Node.js", "Java", "PostgreSQL", "API Development", "Backend Services"]
+    },
+    {
+      "name": "Healthcare Interoperability",
+      "items": ["DICOM", "PACS Integration", "DCM4CHEE", "OHIF Viewer", "fo-dicom (.NET)", "FHIR", "HL7", "Tele-radiology", "eAushadhi", "DVDMS"]
     },
     {
       "name": "Infrastructure & DevOps",
-      "items": ["Kubernetes (k3s)", "Helm", "ArgoCD (GitOps)", "Docker (multi-arch / GHCR)", "GitHub Actions", "Traefik", "Cloudflare (Workers, DNS)"]
+      "items": ["Kubernetes", "Docker (multi-arch)", "Helm", "ArgoCD", "GitHub Actions", "CI/CD", "Traefik", "k3s", "AWS", "Cloudflare"]
     },
     {
-      "name": "Domain",
-      "items": ["Civic tech / DIGIT platform", "Public health HMIS", "Government API integration (eAushadhi, DVDMS)"]
+      "name": "Government Tech & Domain",
+      "items": ["DIGIT Platform", "CARE HMIS", "Urban Governance", "Public Health Systems", "Employment Schemes", "Campaign Management", "Digital Public Infrastructure"]
+    },
+    {
+      "name": "Leadership & Collaboration",
+      "items": ["Technical Mentorship", "Team Leadership", "Architecture Reviews", "Technical Documentation", "Cross-functional Collaboration", "POC Development"]
     }
   ]
 }

@@ -6,14 +6,14 @@
     "location": "Bengaluru, India",
     "startDate": "2023-01",
     "endDate": "present",
-    "summary": "Technical Architect designing and building scalable digital governance and healthcare platforms for urban local bodies and state governments across India and Africa.",
+    "summary": "Leading technical architecture for digital governance and healthcare platforms serving millions across India and Africa. Architect end-to-end solutions from system design to deployment, mentor engineering teams, and drive technical decisions across multiple high-impact government projects.",
     "highlights": [
-      "Led architecture and development of HCM Console (Oct 2023) — a health campaign management system for African field operations, enabling configuration of campaign workflows and real-time monitoring.",
-      "Designed DIGIT Workbench (Jul-Oct 2023) — centralized configuration management using JSON Schema Draft 7 for dynamic UI generation across DIGIT modules.",
-      "Architected MUKTA/Digit Works (Jul 2022-Sep 2023) — employment scheme delivery platform for urban workers in Odisha, managing wage payments and work orders.",
-      "Built CARE DICOM Enabler (Windows .NET service using fo-dicom 5.0.2) bridging hospital imaging modalities to CARE HMIS, integrated DCM4CHEE PACS and OHIF Viewer for tele-radiology.",
-      "Delivered eAushadhi pharmacy integration with Karnataka's government API, including composite-key data model, per-facility-date sync, and trigram-based fuzzy drug-name matching.",
-      "Migrated care-ecosystem repositories to multi-architecture (amd64/arm64) Docker builds, set up k3s cluster with Superset analytics using Helm and ArgoCD GitOps delivery."
+      "Serving as Technical Architect for Care HMIS/TeleICU (Mar 2026-Present) — designing scalable features, reusable plugins, backend services, and integration patterns for hospital and public health workflows. Built integrations with eAushadhi, DVDMS, and tele-radiology solutions supporting multiple PACS/DICOM servers.",
+      "Architected DIGIT Studio (Apr 2025-Feb 2026) — a configurable low-code/no-code Service Delivery Framework for rapid government service development. Successfully delivered Building Plan Approval solution for Government of Djibouti, validating framework's scalability and configurability.",
+      "Led architecture and development of HCM Console (Oct 2023-Feb 2026) — health campaign management platform for African field operations, reducing months of coordination to hours. Built configurable workflows, real-time monitoring dashboards, and offline-first sync for field workers.",
+      "Designed DIGIT Workbench (Jul-Oct 2023) — centralized configuration management using JSON Schema Draft 7 for dynamic UI generation across 15+ DIGIT modules, widely adopted across Works, Mgramseva, Urban, Health Campaign Management, PUCAR, and SELCO projects.",
+      "Architected MUKTA/Digit Works (Jul 2022-Sep 2023) — employment scheme platform for urban poor in Odisha. Built end-to-end workflow for work orders, attendance, muster rolls, wage calculation, and direct bank transfers with SMS notifications.",
+      "Created architecture documentation, API specifications, developer guides, and release documentation. Mentored engineering teams on architecture patterns, reusable components, and engineering standards."
     ]
   },
   {
@@ -23,12 +23,14 @@
     "location": "Bengaluru, India",
     "startDate": "2019-08",
     "endDate": "2022-12",
-    "summary": "Full-stack engineer contributing to the DIGIT Urban platform used across 450+ urban local bodies in India for citizen services and municipal governance.",
+    "summary": "Full-stack engineer contributing to DIGIT Urban platform serving 450+ urban local bodies across India. Built reusable UI components, shared libraries, and configurable frameworks. Led frontend development and mentored a team of three developers.",
     "highlights": [
-      "Built and maintained DIGIT UI modules: digit-ui-css, digit-ui-module-core, digit-ui-module-common (payments), digit-ui-module-dss.",
-      "Contributed the Public Grievance Redressal (PGR) module ported from DIGIT OSS Urban.",
-      "Delivered UI for the HCM Admin Console and microplan resource-management workflows.",
-      "Built CARE plugin CLI scaffold generator to accelerate development for care_fe federation architecture."
+      "Contributed to multiple DIGIT Urban modules (Aug 2019-Sep 2022): Property Tax, Trade License, Fire NOC, Building Plan Approval, mCollect, Complaints, and Birth & Death Registration. Built applications using custom React framework.",
+      "Designed and developed configurable, reusable dashboards for Urban modules, enabling analytics and monitoring across multiple services.",
+      "Developed reusable UI components (digit-ui-css, digit-ui-module-core, digit-ui-module-common, digit-ui-module-dss) that accelerated feature delivery and improved maintainability across products.",
+      "Led frontend development, managed and mentored a team of three developers, conducted code reviews, and drove engineering best practices.",
+      "Supported UPYOG and NUDM implementations by mentoring implementation teams, resolving technical challenges, and promoting reusable, scalable engineering practices.",
+      "Contributed to platform security improvements, POCs, release management, deployment support, technical documentation, and onboarding materials."
     ]
   }
 ]
