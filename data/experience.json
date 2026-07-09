@@ -9,9 +9,6 @@
     "summary": "Leading technical architecture for digital governance and healthcare platforms serving millions across India and Africa. Architect end-to-end solutions from system design to deployment, mentor engineering teams, and drive technical decisions across multiple high-impact government projects.",
     "highlights": [
       "Serving as Technical Architect for Care HMIS/TeleICU (Mar 2026-Present) — designing scalable features, reusable plugins, backend services, and integration patterns for hospital and public health workflows. Built integrations with eAushadhi, DVDMS, and tele-radiology solutions supporting multiple PACS/DICOM servers.",
-      "Architected DIGIT Studio (Apr 2025-Feb 2026) — a configurable low-code/no-code Service Delivery Framework for rapid government service development. Successfully delivered Building Plan Approval solution for Government of Djibouti, validating framework's scalability and configurability.",
-      "Led architecture and development of HCM Console (Oct 2023-Feb 2026) — health campaign management platform for African field operations, reducing months of coordination to hours. Built configurable workflows, real-time monitoring dashboards, and offline-first sync for field workers.",
-      "Designed DIGIT Workbench (Jul-Oct 2023) — centralized configuration management using JSON Schema Draft 7 for dynamic UI generation across 15+ DIGIT modules, widely adopted across Works, Mgramseva, Urban, Health Campaign Management, PUCAR, and SELCO projects.",
       "Created architecture documentation, API specifications, developer guides, and release documentation. Mentored engineering teams on architecture patterns, reusable components, and engineering standards."
     ]
   },
@@ -25,10 +22,9 @@
     "summary": "Technical Lead bridging engineering and architecture, leading development of MUKTA (Digit Works) employment scheme platform. Owned technical direction, mentored engineering teams, and drove adoption of reusable architecture patterns across DIGIT platform.",
     "highlights": [
       "Led engineering team for MUKTA/Digit Works (Jul 2022-Sep 2023) — employment scheme platform for urban poor in Odisha. Architected end-to-end workflow for work orders, labor attendance, muster rolls, wage calculation, and direct bank transfers with SMS notifications.",
-      "Designed reusable service and UI component architecture enabling dynamic screen generation from configurations, significantly increasing team productivity and reducing bugs.",
-      "Implemented smart payment systems integrating with state treasury and banking systems for transparent wage disbursement to workers.",
-      "Led technical design, code reviews, and architecture decisions while mentoring a cross-functional engineering team across frontend, backend, and DevOps.",
-      "Established engineering standards, technical documentation practices, and deployment workflows for the Works platform.",
+      "Architected DIGIT Studio (Apr 2025-Feb 2026) — a configurable low-code/no-code Service Delivery Framework for rapid government service development. Successfully delivered Building Plan Approval solution for Government of Djibouti, validating framework's scalability and configurability.",
+      "Led architecture and development of HCM Console (Oct 2023-Feb 2026) — health campaign management platform for African field operations, reducing months of coordination to hours. Built configurable workflows, real-time monitoring dashboards, and offline-first sync for field workers.",
+      "Designed DIGIT Workbench (Jul-Oct 2023) — centralized configuration management using JSON Schema Draft 7 for dynamic UI generation across 15+ DIGIT modules, widely adopted across Works, Mgramseva, Urban, Health Campaign Management, PUCAR, and SELCO projects.",
       "Successfully deployed MUKTA across urban local bodies in Odisha, enabling seamless execution of government employment schemes."
     ]
   },
