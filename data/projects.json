@@ -1,5 +1,48 @@
 [
   {
+    "slug": "hcm-console",
+    "title": "HCM Console — Health Campaign Management",
+    "summary": "Health campaign management system for African field operations, enabling configuration of campaign workflows and real-time monitoring.",
+    "description": [
+      "Led architecture and development of the HCM Console (Oct 2023), a comprehensive platform for managing large-scale health campaigns in resource-constrained field settings across Africa.",
+      "Built configurable workflow engine allowing health administrators to design multi-stage campaigns (registration, screening, treatment, follow-up) without code changes.",
+      "Implemented real-time monitoring dashboards showing campaign progress, resource allocation, and field team performance metrics.",
+      "Designed offline-first sync capabilities for field workers operating in areas with intermittent connectivity, with conflict resolution and data reconciliation on sync.",
+      "Integrated with DIGIT's service registry for interoperability with other government services and third-party systems."
+    ],
+    "tags": ["Healthcare", "DIGIT", "React", "Campaign Management", "Offline-first", "Africa"],
+    "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
+  },
+  {
+    "slug": "mukta-digit-works",
+    "title": "MUKTA (Digit Works) — Employment Scheme Platform",
+    "summary": "Employment scheme delivery platform for urban workers in Odisha, managing wage payments and work orders across municipal bodies.",
+    "description": [
+      "Architected MUKTA/Digit Works (Jul 2022-Sep 2023), a comprehensive employment scheme management platform deployed across urban local bodies in Odisha for wage employment programs.",
+      "Built end-to-end workflow for work order creation, labor attendance tracking, muster roll generation, and wage calculation with government compliance rules.",
+      "Designed payment disbursement system integrating with state treasury and banking systems for direct benefit transfer to workers' bank accounts.",
+      "Implemented contractor and vendor management modules with rate analysis, material procurement tracking, and project progress monitoring.",
+      "Created mobile-first attendance capture interface for field supervisors, with biometric integration and geo-tagging capabilities.",
+      "Delivered admin dashboards for scheme monitoring, anomaly detection, and financial reconciliation used by urban local body officials."
+    ],
+    "tags": ["DIGIT", "Public Sector", "Employment", "Payments", "React", "Java"],
+    "links": { "repo": "https://github.com/egovernments/DIGIT-Works" }
+  },
+  {
+    "slug": "digit-workbench",
+    "title": "DIGIT Workbench — Configuration Management",
+    "summary": "Centralized configuration management platform using JSON Schema Draft 7 for dynamic UI generation across DIGIT modules.",
+    "description": [
+      "Designed DIGIT Workbench (Jul-Oct 2023), a low-code configuration management system enabling product managers and administrators to configure DIGIT modules without developer intervention.",
+      "Built JSON Schema Draft 7-based validation engine that generates type-safe forms and validates configurations across 15+ DIGIT modules (PGR, TL, PT, WS, SW, etc.).",
+      "Implemented version control for configurations with diff visualization, rollback capabilities, and audit trails for compliance tracking.",
+      "Created template library allowing reuse of common configuration patterns across different urban local bodies and states.",
+      "Delivered approval workflow system for configuration changes, with environment promotion (dev → staging → production) and automated testing."
+    ],
+    "tags": ["JSON Schema", "Configuration Management", "DIGIT", "Low-code", "React", "DevOps"],
+    "links": { "repo": "" }
+  },
+  {
     "slug": "care-radiology-dicom",
     "title": "CARE Radiology & Tele-Radiology Integration",
     "summary": "End-to-end DICOM and PACS integration for CARE HMIS, connecting hospital imaging modalities to a federated OHIF Viewer.",
@@ -26,15 +69,16 @@
     "links": { "repo": "" }
   },
   {
-    "slug": "multiarch-docker-migration",
-    "title": "Multi-Architecture Docker Migration",
-    "summary": "Converted core care-ecosystem services to amd64 + arm64 builds publishing to GHCR.",
+    "slug": "digit-pgr-citizen-grievance",
+    "title": "DIGIT Public Grievance Redressal (PGR)",
+    "summary": "Citizen complaint and feedback module used across 450+ urban local bodies on the DIGIT platform.",
     "description": [
-      "Migrated GitHub Actions workflows across the CARE backend, care_fe, OHIF Viewer, slapd-dcm4chee, and Superset images to build and publish multi-platform images.",
-      "Standardized the build pipeline to support both cloud (amd64) and edge/ARM deployment targets for resource-constrained facility hardware."
+      "Ported and maintained the PGR module from DIGIT OSS Urban into the DIGIT-Frontend monorepo.",
+      "Contributed to the broader DIGIT UI module ecosystem (core, common/payments, DSS dashboards).",
+      "Built a strategic presentation and analysis exploring citizen-voice integration patterns between CARE HMIS and DIGIT PGR."
     ],
-    "tags": ["Docker", "GitHub Actions", "DevOps", "GHCR"],
-    "links": { "repo": "https://github.com/care-ecosystem" }
+    "tags": ["DIGIT", "Civic Tech", "React", "Public Sector"],
+    "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
   },
   {
     "slug": "k3s-superset-infra",
@@ -49,26 +93,14 @@
     "links": { "repo": "https://github.com/care-ecosystem/superset" }
   },
   {
-    "slug": "digit-pgr-citizen-grievance",
-    "title": "DIGIT Public Grievance Redressal (PGR)",
-    "summary": "Citizen complaint and feedback module used across 450+ urban local bodies on the DIGIT platform.",
+    "slug": "multiarch-docker-migration",
+    "title": "Multi-Architecture Docker Migration",
+    "summary": "Converted core care-ecosystem services to amd64 + arm64 builds publishing to GHCR.",
     "description": [
-      "Ported and maintained the PGR module from DIGIT OSS Urban into the DIGIT-Frontend monorepo.",
-      "Contributed to the broader DIGIT UI module ecosystem (core, common/payments, DSS dashboards).",
-      "Built a strategic presentation and analysis exploring citizen-voice integration patterns between CARE HMIS and DIGIT PGR."
+      "Migrated GitHub Actions workflows across the CARE backend, care_fe, OHIF Viewer, slapd-dcm4chee, and Superset images to build and publish multi-platform images.",
+      "Standardized the build pipeline to support both cloud (amd64) and edge/ARM deployment targets for resource-constrained facility hardware."
     ],
-    "tags": ["DIGIT", "Civic Tech", "React", "Public Sector"],
-    "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
-  },
-  {
-    "slug": "ncg-tele-opd-manipur",
-    "title": "NCG Tele-OPD Scale-Up — Manipur",
-    "summary": "Technical and functional gap analysis for a tele-OPD scale-up proposal in Manipur's public health system.",
-    "description": [
-      "Analyzed technology requirements and functional gaps for scaling NCG Tele-OPD across Manipur.",
-      "Evaluated where AI-assisted triage or documentation could fit into the existing tele-consultation workflow."
-    ],
-    "tags": ["Telemedicine", "Healthcare Policy", "Public Health"],
-    "links": { "repo": "" }
+    "tags": ["Docker", "GitHub Actions", "DevOps", "GHCR"],
+    "links": { "repo": "https://github.com/care-ecosystem" }
   }
 ]

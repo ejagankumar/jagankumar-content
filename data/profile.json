@@ -1,12 +1,12 @@
 {
   "name": "Jagankumar E",
-  "title": "Technical Lead, eGov Foundation",
+  "title": "Technical Architect, eGov Foundation",
   "location": "Bengaluru, Karnataka, India",
-  "tagline": "Full-stack engineer building scalable, configurable systems for digital governance across India.",
+  "tagline": "Technical Architect and Full-Stack Engineer passionate about designing scalable, configurable systems for digital governance.",
   "bio": [
-    "I'm a Technical Lead at eGov Foundation, working on CARE — an open-source health management information system used across public health deployments in India, including Jharkhand and Manipur.",
-    "My recent focus has been the radiology and tele-radiology stack: integrating DICOM modalities, DCM4CHEE, and the OHIF Viewer into CARE's plugin architecture, alongside pharmacy integrations (eAushadhi, DVDMS) and citizen grievance systems built on DIGIT PGR.",
-    "I also maintain CI/CD and infrastructure for the care-ecosystem org — multi-architecture Docker builds, a Superset analytics deployment on k3s, and GitOps-style delivery with ArgoCD."
+    "I'm a Technical Architect at eGov Foundation, working on DIGIT — a platform for urban governance used across 450+ urban local bodies in India, and CARE — an open-source health management information system deployed in multiple states.",
+    "My recent work includes the HCM Console for health campaign management in African field operations, DIGIT Workbench for centralized configuration management using JSON Schema, and MUKTA (Digit Works) — an employment scheme delivery platform for urban workers in Odisha.",
+    "I also contribute to healthcare interoperability projects including CARE's radiology/DICOM stack, pharmacy integrations (eAushadhi, DVDMS), and maintain CI/CD infrastructure with multi-architecture Docker builds and k3s deployments."
   ],
   "email": "jagan.kumar@egov.org.in",
   "social": {
