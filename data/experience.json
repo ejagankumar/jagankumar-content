@@ -4,7 +4,7 @@
     "company": "eGov Foundation",
     "role": "Technical Architect",
     "location": "Bengaluru, India",
-    "startDate": "2026-03",
+    "startDate": "Mar-2026",
     "endDate": "present",
     "summary": "Leading technical architecture for digital governance and healthcare platforms serving millions across India and Africa. Architect end-to-end solutions from system design to deployment, mentor engineering teams, and drive technical decisions across multiple high-impact government projects.",
     "highlights": [
@@ -20,8 +20,8 @@
     "company": "eGov Foundation",
     "role": "Technical Lead",
     "location": "Bengaluru, India",
-    "startDate": "2022-01",
-    "endDate": "2026-02",
+    "startDate": "Nov-2021",
+    "endDate": "Feb-2026",
     "summary": "Technical Lead bridging engineering and architecture, leading development of MUKTA (Digit Works) employment scheme platform. Owned technical direction, mentored engineering teams, and drove adoption of reusable architecture patterns across DIGIT platform.",
     "highlights": [
       "Led engineering team for MUKTA/Digit Works (Jul 2022-Sep 2023) — employment scheme platform for urban poor in Odisha. Architected end-to-end workflow for work orders, labor attendance, muster rolls, wage calculation, and direct bank transfers with SMS notifications.",
@@ -37,8 +37,8 @@
     "company": "eGov Foundation",
     "role": "Senior Software Engineer",
     "location": "Bengaluru, India",
-    "startDate": "2019-08",
-    "endDate": "2021-12",
+    "startDate": "Aug-2019",
+    "endDate": "Oct-2021",
     "summary": "Full-stack engineer contributing to DIGIT Urban platform serving 450+ urban local bodies across India. Built reusable UI components, shared libraries, and configurable frameworks. Led frontend development and mentored a team of three developers.",
     "highlights": [
       "Contributed to multiple DIGIT Urban modules (Aug 2019-Sep 2022): Property Tax, Trade License, Fire NOC, Building Plan Approval, mCollect, Complaints, and Birth & Death Registration. Built applications using custom React framework.",
