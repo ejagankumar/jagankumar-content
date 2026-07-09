@@ -23,7 +23,7 @@
       "Successfully delivered one of the first implementations for the Government of Djibouti, building a Building Plan Approval solution that validated the framework's scalability, configurability, and rapid delivery capabilities."
     ],
     "tags": ["Architectural Design", "Low-code", "Kubernetes", "Service Framework", "DIGIT", "React", "Java"],
-    "links": { "repo": "" }
+    "links": { "repo": "https://github.com/egovernments/DIGIT-Studio" }
   },
   {
     "slug": "hcm-console",
@@ -49,7 +49,7 @@
       "Enables configuration-driven development, reducing time to market for new services and improving maintainability."
     ],
     "tags": ["React.js", "Configuration Management", "JSON Schema", "DIGIT", "Low-code"],
-    "links": { "repo": "" }
+    "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
   },
   {
     "slug": "mukta-digit-works",
@@ -78,6 +78,6 @@
       "Supported multiple Urban implementations, including UPYOG and NUDM deployments, by mentoring implementation teams, resolving technical challenges, and promoting reusable, scalable engineering practices across the DIGIT platform."
     ],
     "tags": ["React.js", "Kubernetes", "Urban Governance", "DIGIT", "Team Leadership"],
-    "links": { "repo": "https://github.com/egovernments/DIGIT-Frontend" }
+    "links": { "repo": "https://github.com/egovernments/URBAN" }
   }
 ]
