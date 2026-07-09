@@ -8,7 +8,21 @@ jobs:
   dispatch:
     runs-on: ubuntu-latest
     steps:
+      - name: Check if token is configured
+        id: check_token
+        run: |
+          if [ -z "${{ secrets.SITE_REPO_DISPATCH_TOKEN }}" ]; then
+            echo "⚠️  SITE_REPO_DISPATCH_TOKEN secret is not set"
+            echo "⚠️  The site will NOT auto-rebuild when content changes"
+            echo "⚠️  To enable auto-rebuild, follow the instructions in README.md"
+            echo "token_exists=false" >> $GITHUB_OUTPUT
+          else
+            echo "✅ Token is configured"
+            echo "token_exists=true" >> $GITHUB_OUTPUT
+          fi
+
       - name: Trigger rebuild on jagankumar-site
+        if: steps.check_token.outputs.token_exists == 'true'
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.SITE_REPO_DISPATCH_TOKEN }}
